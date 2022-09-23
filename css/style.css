@@ -1,0 +1,126 @@
+.heroImage{
+    width: auto;
+    margin-top: 0;
+}
+
+div {
+   position: sticky;
+}
+nav .marca{
+    color: white;
+    margin-left: 80px;
+}
+nav .marca:hover{
+    color: gold;
+}
+li .nav-link{
+    color: rgb(184, 179, 171)
+}
+li .nav-link:hover{
+    color: white;
+}
+li .activo{
+    color: white;
+}
+li .comprarTickets{
+    color: rgb(41, 169, 67);
+    margin-right: 80px;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 20px;     
+}
+.ta1{
+    font-size: medium;
+    margin: 5px;
+}
+.ta2{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.container{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.tarjeta{
+    margin: 0 15px;
+}
+.personajeFoto{
+    width: 24vw;  
+}
+.pesonajeNombre{
+    padding-left: 20px;
+    font-size: x-large;
+}
+.personajeTexto{
+    padding: 20px;   
+}
+.botones{
+    margin-top: 15px;
+    padding: 10px 0 0 20px;
+}
+.boton1{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(255, 208, 0);
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.boton2{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(41, 153, 197);
+    padding: 2px 5px;
+    border-radius: 5px;  
+}
+.boton3{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(116, 118, 119);
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.boton4{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.containerOctubre{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(53, 58, 64)    
+}
+.honolulu{
+    width: 50vw;
+}
+.containerTexto{
+    width: 50vw; 
+    color: white;
+    padding: 15px 15px;   
+}
+.conoceMas{
+    color: white;
+    text-decoration: none;    
+    padding: 7px;
+    border-radius: 5px;   
+    border: 1px solid white;
+}
+.conoceMas:hover{
+    color: rgb(53, 58, 64);
+    background-color: white;
+}
+.ta3{
+    font-size: 1.5rem;
+}
+u{
+    border-bottom:3px dotted black;
+    text-decoration:none
+}
