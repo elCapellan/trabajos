@@ -1,6 +1,43 @@
 .heroImage{
-    width: auto;
-    margin-top: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/ba1.jpg');   
+    height: 80vh;
+    padding-top: 350px;
+    
+    
+}
+.heroImage p, h1{
+    color: white;
+    font-size: 1.3rem;  
+    padding-left: 50%;
+    padding-right: 11%;
+    text-align: right;
+}
+.botonesHero{  
+    font-size: 1.3rem;  
+    padding-left: 50%;
+    padding-right: 11%;
+    text-align: right;
+}
+.botonesHero a{
+    text-decoration: none;
+    color: white;
+    margin-left: 35px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.quieroSerOrador{
+    border: 1px solid white;
+}
+.quieroSerOrador:hover{
+    background-color: white;
+    color: rgb(41, 167, 68);
+}
+.comprarTickets2{
+    background-color: rgb(41, 167, 68);
+}
+.comprarTickets2:hover{
+    background-color: white;
+    color: rgb(41, 167, 68);
 }
 
 div {
@@ -123,4 +160,63 @@ li .comprarTickets{
 u{
     border-bottom:3px dotted black;
     text-decoration:none
+}
+.userForm{
+    width: 50vw;
+    margin: auto;      
+}
+#nombre{
+    width: 47%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px 0;
+    border: 1px solid gray;
+}
+#apellido{
+    width: 47%;
+    float: right;
+    border-radius: 5px;
+    padding: 5px 0;
+    border: 1px solid gray;
+}
+.textBox{
+    margin-top: 15px;
+    width: 100%;
+    height: 200px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.botonEnviar{    
+    background-color: rgb(150, 201, 62);
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 10px 0;
+    color: white;
+}
+.botonEnviar:hover{
+    background-color: green;
+}
+footer{
+    width: 100%;
+}
+.pie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29, 73, 98); 
+    margin-top: 15px;    
+}
+.pieTexto{
+    margin: 60px;
+    font-size: 1.2rem;      
+}
+.pieLink{
+    text-decoration: none;
+    color: white;
+}
+.pieLink:hover{
+    color: rgb(150, 201, 62);
 }
